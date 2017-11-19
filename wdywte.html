@@ -1,0 +1,67 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+	<meta charset="utf-8">
+	<title>What Do You Want To Eat?</title>
+
+	<!-- Google Font --> 
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	
+	<!-- StyleSheet -->
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+
+	<div class="container-fluid"> 
+
+		<div class="row"> 
+			<div class="col-md-12">
+				<h1 class="text-center">What Do You Want To Eat?</h1>
+			</div>
+		</div>
+
+		<div class="row"> 
+			<div class="col-md-12">
+				<h4 class="text-center">The question that has sparked millions of shrugs and the ever so familar response, "I don't know, what do <i>you</i> want to eat?". Avoid the dreadful we-can't-decide-what-to-eat dilemma by submitting 3 resteraunts to eat from, and let the algorithm pick one for you!</h4>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4"></div>
+			<div class="col-md-4">
+				<div class="form-group">
+					<input type="option1" class="form-control" id="op1" placeholder="Enter Option One">
+					<input type="option2" class="form-control" id="op2" placeholder="Enter Option Two">
+					<input type="option4" class="form-control" id="op3" placeholder="Enter Option Three">
+				</div>
+				<button type="submit" id="sbmt" class="btn btn-default center-block">Pick one!</button>
+			</div>
+			<div class="col-md-4"></div>
+		</div>
+
+		<div class="row"> 
+			<div class="col-md-12">
+				<h4 class="text-center" id="result"></h4>
+			</div>
+		</div>
+
+	</div>
+ 
+	<!-- jQeury -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Bootstrap JS Script --> 
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<!-- js script --> 
+	<script src="script.js"></script>
+</body>
+</html>
